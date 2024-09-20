@@ -6,10 +6,10 @@ import { GiHamburger } from "react-icons/gi";
 
 const ChooseUs = () => {
   return (
-    <div className="mx-auto my-24 mt-24 gap-36 md:flex max-w-7xl">
+    <div className="px-4 mx-auto my-12 md:my-24 gap-36 md:flex max-w-7xl">
       <div>
         <Image
-          className="bg-[#EFCBE2] rounded-3xl my-8"
+          className="bg-[#EFCBE2] rounded-lg md:rounded-3xl my-8"
           src="/Images/choose img.png"
           alt="Choose us image coming soon..."
           height={500}
@@ -18,7 +18,7 @@ const ChooseUs = () => {
       </div>
       <div>
         <div>
-          <h1 className="text-5xl font-bold text-[#2D2D2D]">
+          <h1 className="text-3xl md:text-5xl font-bold text-[#2D2D2D]">
             Why People Choose us?
           </h1>
           <div>
@@ -27,7 +27,7 @@ const ChooseUs = () => {
                 <TbTruckDelivery className="text-6xl text-[#FF9E0C] p-2 rounded-full shadow-md"></TbTruckDelivery>
               </span>
               <span>
-                <h3 className="text-3xl font-semibold">
+                <h3 className="text-xl font-semibold md:text-3xl">
                   Convenient and Reliable
                 </h3>
                 <p className="text-[#404040] text-justify">
@@ -42,7 +42,9 @@ const ChooseUs = () => {
                 <BiFoodMenu className="text-6xl text-[#FF9E0C] p-2 rounded-full shadow-md"></BiFoodMenu>
               </span>
               <span>
-                <h3 className="text-3xl font-semibold">Variety of Options</h3>
+                <h3 className="text-xl font-semibold md:text-3xl">
+                  Variety of Options
+                </h3>
                 <p className="text-[#404040] text-justify">
                   From hearty meals to light snacks, we offer a wide range of
                   options to suit every taste and craving.
@@ -54,7 +56,7 @@ const ChooseUs = () => {
                 <GiHamburger className="text-6xl text-[#FF9E0C] p-2 rounded-full shadow-md"></GiHamburger>
               </span>
               <span>
-                <h3 className="text-3xl font-semibold">
+                <h3 className="text-xl font-semibold md:text-3xl">
                   Convenient and Reliable
                 </h3>
                 <p className="text-[#404040] text-justify">

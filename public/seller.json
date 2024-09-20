@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "http://res.cloudinary.com/du0uabbwo/image/upload/v1726865392/dx6ntqusxt103whaztf4.avif",
+    "title": "Breakfast Food",
+    "price": "$49.99",
+    "button": "Buy Now"
+  },
+  {
+    "id": 2,
+    "image": "http://res.cloudinary.com/du0uabbwo/image/upload/v1726865423/jqcp9z4vkjchctcbkpjb.avif",
+    "title": "Health Breakfast",
+    "price": "$99.99",
+    "button": "Buy Now"
+  },
+  {
+    "id": 3,
+    "image": "http://res.cloudinary.com/du0uabbwo/image/upload/v1726865439/g1vdiqs8apa2iwpuzxs1.avif",
+    "title": "Breakfast Food",
+    "price": "$29.99",
+    "button": "Buy Now"
+  },
+  {
+    "id": 4,
+    "image": "http://res.cloudinary.com/du0uabbwo/image/upload/v1726865455/lgvbsviddfavtopilndc.avif",
+    "title": "Breakfast Food",
+    "price": "$79.99",
+    "button": "Buy Now"
+  },
+  {
+    "id": 5,
+    "image": "http://res.cloudinary.com/du0uabbwo/image/upload/v1726865470/ulpveztwliognb3hnvdi.avif",
+    "title": "Breakfast Food",
+    "price": "$59.99",
+    "button": "Buy Now"
+  },
+  {
+    "id": 6,
+    "image": "http://res.cloudinary.com/du0uabbwo/image/upload/v1726865490/axmitbgufxs0wzkhfnau.avif",
+    "title": "Breakfast Food",
+    "price": "$19.99",
+    "button": "Buy Now"
+  }
+]

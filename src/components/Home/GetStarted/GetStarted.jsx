@@ -3,29 +3,30 @@ import { IoPlayOutline } from "react-icons/io5";
 
 const GetStarted = () => {
   return (
-    <div className="justify-between mx-auto mt-24 start gap-36 md:flex max-w-7xl">
-      <div className="w-1/2">
+    <div className="justify-between px-4 mx-auto mt-12 md:mt-24 start gap-36 md:flex max-w-7xl">
+      <div className="md:w-1/2">
         <div>
           <h1 className="font-semibold text-[#A52A2A] uppercase">
             Pizza Delivery
           </h1>
-          <h1 className="pt-2 text-6xl font-semibold">Get Started Today!</h1>
-          <div className="border-t-[5px] w-36 mt-4 border-[#A52A2A]"></div>
-          <p className="mt-2 text-2xl font-semibold text-justify">
+          <h1 className="pt-2 text-3xl font-semibold md:text-6xl">
+            Get Started Today!
+          </h1>
+          <div className="border-t-[5px] w-24 md:w-36 mt-4 border-[#A52A2A]"></div>
+          <p className="mt-2 text-xl font-semibold text-justify md:text-2xl">
             Everything you need to build an amazing food restaurant responsive
             website.
           </p>
-          <p className="text-justify">
+          <p className="pt-4 text-justify">
             Hendrerit in vulputate velit esse molestie consequat, vel illum
             dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
             odio dignissim qui blandit praesent luptatum zzril delenit augue
             duis.
           </p>
-          <div className="flex gap-8 mt-10">
-            <div>
+          <div className="flex gap-4 mt-10 text-justify md:gap-8">
+            <div className="px-2 py-3 rounded-lg shadow-lg md:px-4">
               <svg
-                width="101"
-                height="100"
+                className="items-center w-16 mx-auto md:w-24 md:h-24"
                 viewBox="0 0 101 100"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -51,10 +52,9 @@ const GetStarted = () => {
                 </p>
               </span>
             </div>
-            <div>
+            <div className="px-2 py-3 rounded-lg shadow-lg md:px-4">
               <svg
-                width="101"
-                height="100"
+                className="items-center w-16 mx-auto md:w-24 md:h-24"
                 viewBox="0 0 101 100"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -83,10 +83,10 @@ const GetStarted = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2 mt-12">
+      <div className="mt-12 md:w-1/2">
         <div>
           <h4 className="text-[#A52A2A] text-lg">About us ___</h4>
-          <p className="text-5xl font-bold text-[#333333] mt-4">
+          <p className="text-3xl md:text-5xl font-bold text-[#333333] mt-4">
             Food is an important part Of a balanced Diet
           </p>
           <p className="mt-8 text-justify">
@@ -96,15 +96,15 @@ const GetStarted = () => {
             Ultrices mattis vitae mus risus. Lacus nisi, et ac dapibus sit eu
             velit in consequat.
           </p>
-          <div className="flex mt-8 gap-[14px]">
+          <div className="flex justify-between md:justify-normal mt-8 gap-[14px]">
             <div>
-              <button className="px-12 py-4 hover:bg-opacity-90 bg-[#880808] rounded-md text-white font-bold text-lg">
+              <button className="px-6 md:px-12 py-4 hover:bg-opacity-90 bg-[#880808] rounded-md text-white font-bold text-xs md:text-lg">
                 Show More
               </button>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-1 md:gap-3">
               <span>
-                <IoPlayOutline className="h-[60px] w-[60px] hover:bg-green-700 bg-[#880808] text-white p-2 rounded-full"></IoPlayOutline>
+                <IoPlayOutline className="h-8 w-8 md:h-[60px] md:w-[60px] hover:bg-green-700 bg-[#880808] text-white p-2 rounded-full"></IoPlayOutline>
               </span>
               <h4 className="font-bold">Watch Video</h4>
             </div>
