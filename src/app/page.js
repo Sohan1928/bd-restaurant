@@ -1,5 +1,6 @@
 import Banner from "@/components/Home/Banner/Banner";
 import BestSeller from "@/components/Home/BestSeller/BestSeller";
+import Blog from "@/components/Home/Blog/Blog";
 import ChooseUs from "@/components/Home/ChooseUs/ChooseUs";
 import CustomerFeedback from "@/components/Home/CustomerFeedback/CustomerFeedback";
 import GetStarted from "@/components/Home/GetStarted/GetStarted";
@@ -20,6 +21,7 @@ export default function Home() {
       <CustomerFeedback></CustomerFeedback>
       <TeamMember></TeamMember>
       <ItWork></ItWork>
+      <Blog></Blog>
     </main>
   );
 }
