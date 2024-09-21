@@ -3,6 +3,7 @@ import BestSeller from "@/components/Home/BestSeller/BestSeller";
 import ChooseUs from "@/components/Home/ChooseUs/ChooseUs";
 import CustomerFeedback from "@/components/Home/CustomerFeedback/CustomerFeedback";
 import GetStarted from "@/components/Home/GetStarted/GetStarted";
+import ItWork from "@/components/Home/ItWork/ItWork";
 import NavSection from "@/components/Home/NavSection/NavSection";
 import TeamMember from "@/components/Home/TeamMember/TeamMember";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <BestSeller></BestSeller>
       <CustomerFeedback></CustomerFeedback>
       <TeamMember></TeamMember>
+      <ItWork></ItWork>
     </main>
   );
 }

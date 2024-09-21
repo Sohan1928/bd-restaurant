@@ -8,12 +8,12 @@ import { Pagination } from "swiper/modules";
 
 const CustomerFeedback = () => {
   return (
-    <div className="items-center gap-20 px-2 mx-auto my-12 md:flex md:my-24 max-w-7xl">
+    <div className="items-center gap-20 px-4 mx-auto my-12 md:flex md:my-24 max-w-7xl">
       <div className="md:w-1/2">
         <h1 className="text-3xl font-bold md:text-5xl">
           Customer <span className="text-[#AD1519]">Feedback</span>
         </h1>
-        <p className="text-2xl text-[#3D3D3D] pt-4">
+        <p className="text-2xl text-[#3D3D3D] pt-4 text-justify">
           I recently dined at your restaurant and wanted to share my experience.
           The food was absolutely delicious, and I was impressed by the
           freshness of the ingredients. Each dish was bursting with flavor, and

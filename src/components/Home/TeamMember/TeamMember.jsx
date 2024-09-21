@@ -33,8 +33,19 @@ const TeamMember = () => {
             alt="man image coming soon"
           />
           <span className="py-2">
-            <h3 className="font-bold md:text-xl">Mark Henry</h3>
-            <p>Owner</p>
+            <h3 className="font-bold md:text-xl">Lucky Helen</h3>
+            <p>Chef</p>
+          </span>
+        </div>
+        <div className="pb-2 transform -translate-y-32 shadow-lg">
+          <img
+            className=""
+            src="/Images/male-chef.png"
+            alt="man image coming soon"
+          />
+          <span className="">
+            <h3 className="font-bold md:text-xl">Moon Henry</h3>
+            <p>Founder</p>
           </span>
         </div>
         <div className="pb-2 transform -translate-y-32 shadow-lg">
@@ -44,19 +55,8 @@ const TeamMember = () => {
             alt="man image coming soon"
           />
           <span className="py-2">
-            <h3 className="font-bold md:text-xl">Mark Henry</h3>
-            <p>Owner</p>
-          </span>
-        </div>
-        <div className="pb-2 transform -translate-y-32 shadow-lg">
-          <img
-            className=""
-            src="/Images/male-chef.png"
-            alt="man image coming soon"
-          />
-          <span className="py-2">
-            <h3 className="font-bold md:text-xl">Mark Henry</h3>
-            <p>Owner</p>
+            <h3 className="font-bold md:text-xl">Tom Monrow</h3>
+            <p>Specialist</p>
           </span>
         </div>
       </div>
