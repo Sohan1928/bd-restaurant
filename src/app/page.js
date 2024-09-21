@@ -12,8 +12,8 @@ import TeamMember from "@/components/Home/TeamMember/TeamMember";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-[1920px]">
-      <div className="pt-[51px] px-4 rounded-b-lg md:px-[65px] md:h-[560px] bg-[#880808]">
+    <main className="mx-auto max-w-[1920px] overflow-x-hidden">
+      <div className="pt-[51px] px-4 rounded-b-lg md:px-[65px] md:h-[640px] bg-[#880808]">
         <NavSection></NavSection>
         <Banner></Banner>
       </div>

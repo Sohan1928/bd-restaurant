@@ -80,14 +80,34 @@ const CustomerFeedback = () => {
           </Swiper>
         </div>
       </div>
-      <div className="bg-[#A52A2A] mt-8 md:mt-0">
+
+      <div className="relative mt-8 md:mt-0 h-[300px] md:h-[500px] w-full md:w-[800px]">
+        {/* Background color */}
+        <div
+          className="absolute bottom-0 left-0 h-[250px] md:h-[350px] w-full transform rotate-90"
+          style={{
+            background: "#A52A2A",
+            clipPath: "polygon(0 0, 100% 0, 100% 100%, 50% 100%)", // Adjusted for mobile responsiveness
+          }}
+        ></div>
+        {/* Image */}
+        <Image
+          src="/Images/happy shef.png"
+          alt="Banner image coming soon..."
+          width={500}
+          height={500}
+          className="relative object-cover w-full md:w-[500px] h-full"
+        />
+      </div>
+
+      {/* <div className="bg-[#A52A2A] mt-8 md:mt-0">
         <Image
           src="/Images/happy shef.png"
           alt="Banner image coming soon..."
           width={500}
           height={500}
         ></Image>
-      </div>
+      </div> */}
     </div>
   );
 };

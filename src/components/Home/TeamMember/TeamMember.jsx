@@ -3,8 +3,13 @@ import React from "react";
 const TeamMember = () => {
   return (
     <div className="items-center px-2 mx-auto my-12 md:my-24 md:w-[1920px] h-[398px]">
-      <div className="bg-[#AD1519D9] mx-auto text-center">
-        <div className="pb-40 pt-28">
+      <div className="bg-[#AD1519D9] relative  mx-auto text-center">
+        <img
+          className="absolute top-[50px] transform left-1/2 -translate-x-16 md:-translate-x-28 h-[120px] md:h-[200px] w-[120px] md:w-[200px] opacity-40 z-0"
+          src="/Images/blog2.jpg"
+          alt=""
+        />
+        <div className="relative z-10 pb-40 pt-28">
           <h1 className="text-3xl font-bold text-white md:text-5xl">
             Team Member
           </h1>
