@@ -14,7 +14,7 @@ const Blog = () => {
   }, []);
 
   return (
-    <div className="items-center px-4 mx-auto mb-16 max-w-7xl">
+    <div className="items-center px-4 mx-auto mb-20 max-w-7xl">
       <div className="mx-auto text-center">
         <h1 className="text-3xl text-[#333333] font-bold md:text-5xl">
           Latest news & Blog

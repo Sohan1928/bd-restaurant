@@ -2,7 +2,9 @@ import Banner from "@/components/Home/Banner/Banner";
 import BestSeller from "@/components/Home/BestSeller/BestSeller";
 import Blog from "@/components/Home/Blog/Blog";
 import ChooseUs from "@/components/Home/ChooseUs/ChooseUs";
+import Client from "@/components/Home/Client/Client";
 import CustomerFeedback from "@/components/Home/CustomerFeedback/CustomerFeedback";
+import Footer from "@/components/Home/Footer/Footer";
 import GetStarted from "@/components/Home/GetStarted/GetStarted";
 import ItWork from "@/components/Home/ItWork/ItWork";
 import NavSection from "@/components/Home/NavSection/NavSection";
@@ -22,6 +24,8 @@ export default function Home() {
       <TeamMember></TeamMember>
       <ItWork></ItWork>
       <Blog></Blog>
+      <Client></Client>
+      <Footer></Footer>
     </main>
   );
 }
