@@ -17,7 +17,7 @@ const BestSeller = () => {
         <h1 className="text-[#1F1F1F] text-3xl md:text-5xl font-bold text-center">
           Our best Seller Dishes
         </h1>
-        <p className=" text-[#5C5C5C] md:text-2xl text-center mt-5 mx-auto">
+        <p className=" text-[#5C5C5C] md:text-2xl text-center md:w-1/2 mt-5 mx-auto">
           Our fresh garden salad is a light and refreshing option. It features a
           mix of crisp lettuce, juicy tomato all tossed in your choice of
           dressing.

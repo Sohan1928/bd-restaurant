@@ -29,7 +29,7 @@ const Banner = () => {
         </div>
         <div>
           <Image
-            src="/images/banner1.png"
+            src="/Images/banner1.png"
             alt="Banner image coming soon..."
             width={500}
             height={500}

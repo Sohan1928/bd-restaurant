@@ -98,7 +98,7 @@ const GetStarted = () => {
           </p>
           <div className="flex justify-between md:justify-normal mt-8 gap-[14px]">
             <div>
-              <button className="px-6 md:px-12 py-4 hover:bg-opacity-90 bg-[#880808] rounded-md text-white font-bold text-xs md:text-lg">
+              <button className="px-6 md:px-12 py-4 hover:bg-opacity-80 bg-[#880808] rounded-md text-white font-bold text-xs md:text-lg">
                 Show More
               </button>
             </div>

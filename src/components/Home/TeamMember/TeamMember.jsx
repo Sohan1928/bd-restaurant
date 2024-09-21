@@ -1,0 +1,67 @@
+import React from "react";
+
+const TeamMember = () => {
+  return (
+    <div className="items-center px-2 mx-auto my-12 md:my-24 md:w-[1920px] h-[398px]">
+      <div className="bg-[#AD1519D9] mx-auto text-center">
+        <div className="pb-40 pt-28">
+          <h1 className="text-3xl font-bold text-white md:text-5xl">
+            Team Member
+          </h1>
+          <p className="md:w-[418px] mx-auto text-white mt-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed
+            pharetra dictum neque massa congue
+          </p>
+        </div>
+      </div>
+      <div className="grid px-4 md:px-[300px] items-center grid-cols-2 gap-4 md:gap-8 mx-auto text-center md:grid-cols-4">
+        <div className="pb-2 transform -translate-y-32 shadow-lg">
+          <img
+            className=""
+            src="/Images/male-chef.png"
+            alt="man image coming soon"
+          />
+          <span className="py-2">
+            <h3 className="font-bold md:text-xl">Mark Henry</h3>
+            <p>Owner</p>
+          </span>
+        </div>
+        <div className="pb-2 transform -translate-y-32 shadow-lg">
+          <img
+            className=""
+            src="/Images/male-chef.png"
+            alt="man image coming soon"
+          />
+          <span className="py-2">
+            <h3 className="font-bold md:text-xl">Mark Henry</h3>
+            <p>Owner</p>
+          </span>
+        </div>
+        <div className="pb-2 transform -translate-y-32 shadow-lg">
+          <img
+            className=""
+            src="/Images/male-chef.png"
+            alt="man image coming soon"
+          />
+          <span className="py-2">
+            <h3 className="font-bold md:text-xl">Mark Henry</h3>
+            <p>Owner</p>
+          </span>
+        </div>
+        <div className="pb-2 transform -translate-y-32 shadow-lg">
+          <img
+            className=""
+            src="/Images/male-chef.png"
+            alt="man image coming soon"
+          />
+          <span className="py-2">
+            <h3 className="font-bold md:text-xl">Mark Henry</h3>
+            <p>Owner</p>
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TeamMember;
