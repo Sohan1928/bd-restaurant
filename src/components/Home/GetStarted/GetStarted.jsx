@@ -4,7 +4,12 @@ import { IoPlayOutline } from "react-icons/io5";
 const GetStarted = () => {
   return (
     <div className="justify-between px-4 mx-auto mt-12 md:mt-24 start gap-36 md:flex max-w-7xl">
-      <div className="md:w-1/2">
+      <div
+        data-aos="fade-right"
+        data-aos-delay="50"
+        data-aos-duration="1200"
+        className="md:w-1/2"
+      >
         <div>
           <h1 className="font-semibold text-[#A52A2A] uppercase">
             Pizza Delivery
@@ -83,7 +88,12 @@ const GetStarted = () => {
           </div>
         </div>
       </div>
-      <div className="mt-12 md:w-1/2">
+      <div
+        data-aos="fade-left"
+        data-aos-delay="50"
+        data-aos-duration="1200"
+        className="mt-12 md:w-1/2"
+      >
         <div>
           <h4 className="text-[#A52A2A] text-lg">About us ___</h4>
           <p className="text-3xl md:text-5xl font-bold text-[#333333] mt-4">

@@ -7,7 +7,7 @@ import { GiHamburger } from "react-icons/gi";
 const ChooseUs = () => {
   return (
     <div className="px-4 mx-auto my-12 md:my-24 gap-36 md:flex max-w-7xl">
-      <div>
+      <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="1200">
         <Image
           className="bg-[#EFCBE2] rounded-lg md:rounded-3xl my-8"
           src="/Images/choose img.png"
@@ -16,7 +16,7 @@ const ChooseUs = () => {
           width={500}
         ></Image>
       </div>
-      <div>
+      <div data-aos="fade-left" data-aos-delay="50" data-aos-duration="1200">
         <div>
           <h1 className="text-3xl md:text-5xl font-bold text-[#2D2D2D]">
             Why People Choose us?
